@@ -15,4 +15,9 @@ public class Wall extends AbstractMapSite {
     @Override
     public void enter() {
     }
+
+    @Override
+    public Wall clone(){
+        return this;
+    }
 }

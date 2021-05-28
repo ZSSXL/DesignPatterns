@@ -19,11 +19,16 @@ public class Door extends AbstractMapSite {
 
     }
 
+    public Door(Integer roomNumber) {
+        super();
+    }
+
     public Room otherSideFrom(Room room) {
         return null;
     }
 
     @Override
-    public void enter() {
+    public Door clone (){
+        return new Door(this.roomNo1, this.roomNo2);
     }
 }

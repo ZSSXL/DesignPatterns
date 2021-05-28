@@ -1,7 +1,6 @@
 package com.zss.cp.builder.sub;
 
 import com.zss.cp.builder.MazeBuilder;
-import com.zss.cp.common.Maze;
 
 /**
  * @author ZSS

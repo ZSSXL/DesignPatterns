@@ -14,6 +14,7 @@ import com.zss.cp.factory.product.PMWidgetFactory;
 import com.zss.cp.base.Door;
 import com.zss.cp.base.Room;
 import com.zss.cp.base.Wall;
+import com.zss.cp.factory.prototype.MazePrototypeFactory;
 
 /**
  * @author ZSS
@@ -120,6 +121,11 @@ public class MazeGame {
         r2.setSites(Direction.West, door);
 
         return maze;
+    }
+
+    public MazePrototypeFactory bombedMazeFactory() {
+        return null;
+        // todo 原型有点复杂，以后后面再来看
     }
 
     public Maze makeMaze() {

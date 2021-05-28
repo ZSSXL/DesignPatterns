@@ -29,4 +29,9 @@ public class Room extends AbstractMapSite {
     @Override
     public void enter() {
     }
+
+    @Override
+    public Room clone(){
+        return new Room(this.roomNumber);
+    }
 }

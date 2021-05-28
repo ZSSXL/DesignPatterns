@@ -77,6 +77,7 @@ public class Application {
     /**
      * FactoryMethod -- 工厂方法模式的应用
      * -- 怎么感觉还是有点像：抽象方法
+     * -- 回头有时间再来看看
      */
     private void userFactoryMethod() {
         MazeGame game = new MazeGame();

@@ -21,4 +21,8 @@ public class Maze {
         return null;
     }
 
+    @Override
+    public Maze clone(){
+        return new Maze();
+    }
 }
