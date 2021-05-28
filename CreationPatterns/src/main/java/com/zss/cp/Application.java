@@ -21,6 +21,8 @@ import com.zss.cp.game.sub.EnchantedMazeGame;
 public class Application {
 
     public static void main(String[] args) {
+        String envValue = System.getenv("JAVA_HOME");
+        System.out.println("Env: [" + envValue + "]");
         System.out.println("============= 创建型模式 =============");
     }
 
