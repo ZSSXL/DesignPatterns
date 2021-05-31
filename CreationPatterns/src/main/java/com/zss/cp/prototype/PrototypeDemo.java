@@ -12,16 +12,17 @@ public class PrototypeDemo {
         tom.setPersonal(24, "man");
         tom.setWorkExperience("2018-2021", "我为祖国造石油");
 
-        Resume clone = tom.doClone();
+        Resume clone = tom.doCloneDeep();
+        if(clone == null){
+            System.out.println("对象克隆失败");
+        } else {
+            clone.setWorkExperience("2019-2022", "阿狸麻麻");
+        }
 
         System.out.println("========================= Prototype =========================");
         System.out.println(tom);
         System.out.println("========================= Clone =========================");
-        if(clone == null){
-            System.out.println("对象克隆失败");
-        } else {
-            System.out.println(clone);
-        }
+        System.out.println(clone);
 
     }
 

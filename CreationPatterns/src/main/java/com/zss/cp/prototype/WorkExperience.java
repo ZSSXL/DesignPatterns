@@ -11,6 +11,9 @@ public class WorkExperience {
 
     private String company;
 
+    public WorkExperience() {
+    }
+
     public String getWorkTime() {
         return workTime;
     }
